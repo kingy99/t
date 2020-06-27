@@ -11,10 +11,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'oauth', '~> 0.5.1'
   spec.add_dependency 'retryable', '~> 3.0'
   spec.add_dependency 'thor', ['>= 0.19.1', '< 2']
-  spec.add_dependency 'twitter', '~> 6.0'
+  spec.add_dependency 'twitter', '~> 7.0'
   spec.author = 'Erik Berlin'
   spec.description = 'A command-line power tool for Twitter.'
-  spec.email = 'sferik@gmail.com'
+  spec.email = 'khidirmubashir@gmail.com'
   spec.executables = Dir['bin/*'].map { |f| File.basename(f) }
   spec.files = %w[CONTRIBUTING.md LICENSE.md README.md t.gemspec] + Dir['bin/*'] + Dir['lib/**/*.rb']
   spec.homepage = 'http://sferik.github.com/t/'
